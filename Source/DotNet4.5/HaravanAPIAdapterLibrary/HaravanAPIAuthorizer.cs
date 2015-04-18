@@ -64,7 +64,7 @@ namespace HaravanAPIAdapterLibrary
         {
             var authURL = new StringBuilder();
 
-            authURL.AppendFormat("http://{0}.myharavan.com/admin/oauth/authorize", this._shopName);
+            authURL.AppendFormat("https://{0}.myharavan.com/admin/oauth/authorize", this._shopName);
             authURL.AppendFormat("?client_id={0}&response_type=code", this._apiKey);
 
             if (scope != null && scope.Length > 0)
