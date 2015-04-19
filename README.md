@@ -4,7 +4,7 @@ For now, the easiest and only, download the source code and add the project to y
 
 ## Haravan API Authorization
 
-In order to understand how haravan authorizes your code to make API calls for a certain haravan customer, I recommend reading this document: [Haravan API Authentication](http://api.haravan.com/authentication.html)
+In order to understand how haravan authorizes your code to make API calls for a certain haravan customer, I recommend reading this document: [Haravan API Authentication](https://docs.haravan.com/api)
 
 ### HaravanAPIAuthorizer
 
